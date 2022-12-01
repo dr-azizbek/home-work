@@ -1,0 +1,13 @@
+body{
+    background-color: #1a1818;
+}
+
+#juft-son{
+    position: relative;
+    top: 200px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #605555;
+
+}
