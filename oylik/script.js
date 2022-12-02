@@ -1,9 +1,14 @@
-let oylik = +prompt("Oylik maosh 4500$ \n Olgan maoshinggizni kiriting va \n qancha kam olganinggizdi aniqlab beradi:")
-let m = 4500
+let oylik = +prompt("Oylik maosh 350$ \n Olgan maoshinggizni kiriting :")
+let m = 300
 let result = document.getElementById("oylik")
 let kam = m - oylik
+let kop = oylik - m
 if (m = oylik) {
     result.innerHTML = "Oylik maoshni to'liq olibsiz!"
 }
-else (m < oylik)
-result.innerHTML = kam + "$ kam maosh olibsiz!"
+// if (m < oylik)
+//     result.innerHTML = kam + "$ kam maosh olibsiz!"
+else {
+    (m > oylik)
+    result.innerHTML = kop + "$ ko'p maosh olgansiz!"
+}
